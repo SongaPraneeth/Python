@@ -9,7 +9,7 @@ def duplicate_element_finder(n):
     else:
       seem.append(i)
   print(duplicate)
-
+  
 
 w = list((input("enter numbers or characters with spaces:").split()))
 duplicate_element_finder(w)
