@@ -1,4 +1,4 @@
-n = int(input("Enter a number upto you want to find prime numbers: "))
+n = int(input("Enter a number to find how many prime number are present under that number: "))
 i = 2
 
 while i <= n:
