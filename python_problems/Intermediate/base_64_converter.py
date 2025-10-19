@@ -3,7 +3,9 @@ import textwrap
 decide = input("enter-> A for encode, B for decode: ")
 
 base64_characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/"
+
 if decide == "A": 
+  # This function converts strings to ascii values
   def string_ascii(n1):
     a_v = []
     for i in n1:
@@ -12,6 +14,7 @@ if decide == "A":
     print("ASCII values: ",a_v)
     ascii_binary(a_v, len(n1))
 
+  # This function converts ascii values to bytes and checking wheather the lenght of the total bytes are divisible by 6, because
   def ascii_binary(n2, input_lenght):
     binary = ''
     for i in n2:
