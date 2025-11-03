@@ -14,7 +14,7 @@ if decide == "A":
     print("ASCII values: ",a_v)
     ascii_binary(a_v, len(n1))
 
-  # This function converts ascii values to bytes and checking wheather the lenght of the total bytes are divisible by 6, because
+  # This function converts ascii values to bytes and checking wheather the lenght of the total bytes are divisible by 6
   def ascii_binary(n2, input_lenght):
     binary = ''
     for i in n2:
