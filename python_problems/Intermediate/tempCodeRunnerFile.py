@@ -1,5 +1,16 @@
-if password in string.ascii_uppercase and string.ascii_lowercase and string.punctuation and int :
-#   print("it is strong")
+seems = []
+# duplicates = []
 
-# else:
-#   print("Not strong")
+# for i in values:
+#   if i not in  seems:
+#     seems.append[i]
+#   else:
+#     duplicates.append[i]
+    
+    
+# duplicate_files = []
+# for key,value in dic.items():
+#   if value in duplicates:
+#     duplicate_files.append(key)
+
+# print(duplicate_files)
